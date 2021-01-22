@@ -1,6 +1,6 @@
 # _Mr. Roboger's Neighborhood_
 
-#### _{Brief description of application}_
+#### _This website allows users to enter a number and receive a response from Mr. Roboger_
 
 #### By _**Morgan Bradford**_
 
@@ -37,7 +37,7 @@ Expect(beepBoop(13)).toEqual('won't you be my neighbor')
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This website allows users to enter a number and receive a response from Mr. Roboger_
 
 ## Setup/Installation Requirements
 
@@ -51,8 +51,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Arrays of multiple numbers do not replace 1, 2, or 3 with associated string at indexes other than 0_
 
 ## License
 

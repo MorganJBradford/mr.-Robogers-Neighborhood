@@ -8,7 +8,7 @@ function beepBoop(response) {
       for (let j = 0; j <= response[0]; j++) {
         beepBoopReturn.push(j)
       }
-    } else if (response[0] !== 0 && response[0] !== 3 && response[0] !== 2 && response[0] !== 1 && response[0] > 9) {
+    } else if (response[i] !== 0 && response[i] !== 3 && response[i] !== 2 && response[i] !== 1 && response[i] > 9) {
         for (let i = 0; i < response; i++) {
           if (response[0] === threeArray[i]) {
             beepBoopReturn =  "Won't you be my neighbor"
