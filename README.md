@@ -18,6 +18,9 @@ Describe: beepBoop()
 Test-1: "It should return an array with a 0 if the number 0 is inputted"
 Expect(beepBoop(0).toEqual([0]);
 
+Test-2: "It should return 'Won't you be my neighbor?' if the number 3 is entered"
+Expect(beepBoop(3))toEqual(["Won't you be my neighbor?"])
+
 
 ## Description
 
