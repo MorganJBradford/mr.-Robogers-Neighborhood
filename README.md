@@ -55,19 +55,19 @@ Next, enter the following command 'git clone https://github.com/MorganJBradford/
 
 The terminal should return with something similar to:
 
->text
+> Cloning into 'mr.-Robogers-Neighborhood'...
 >
->text
+> remote: Enumerating objects: 94, done.
 >
->text
+> remote: Counting objects: 100% (94/94), done.
 >
->text
+> remote: Compressing objects: 100% (62/62), done.
 >
->text
+> remote: Total 94 (delta 41), reused 82 (delta 29), pack-reused 0
 >
->text
+> Receiving objects: 100% (94/94), 119.48 KiB | 1.05 MiB/s, done.
 >
->text
+> Resolving deltas: 100% (41/41), done.
 
 Next enter the command "ls" which should return with a list of files and directories. Mine returned with:
 
