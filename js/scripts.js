@@ -1,9 +1,9 @@
 let response = [];
 let beepBoopReturn = [];
 function beepBoop(response) {
-  if (response === 3) {
-    for (let i = 0; i < response; i++) {
-      beepBoopReturn.push[i]
+  if (response[0] >= 0) {
+    for (let i = 0; i <= response[0]; i++) {
+      beepBoopReturn.push(i)
     }
   }
   
