@@ -41,13 +41,41 @@ _This website allows users to enter a number and receive a response from Mr. Rob
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+1. Clone this repository from GitHub
+2. Navigate to the top directory
+3. Use your favorite browser to open index.html
+4. Enter a number, press enter and view Mr. Roboger's response!
+5. View Mr. Roboger's response!
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+_Details_: using terminal, navigate to the directory you would like to download this directory to. For this example we will be navigating to desktop. For any commands, type what is in between the 'single' quotation marks. To navigate to desktop, type 'cd ~/desktop'. To confirm your location enter 'pwd'. You should receive a message similar to "/c/Users/vampi/desktop" in this instance my location translates to "/hard drive c/Users folder/user/desktop". The last entry "desktop" is my current directory, and just happens to be inside of the other directories previously listed.
+
+**Note: If you have a directory named mr.Robogers-Neighborhood located here before using this next command, you may run into issues. To see a list of directories in your current location enter 'ls' in the terminal.**
+
+Next, enter the following command 'git clone https://github.com/MorganJBradford/mr.-Robogers-Neighborhood.git'
+
+The terminal should return with something similar to:
+
+>text
+>
+>text
+>
+>text
+>
+>text
+>
+>text
+>
+>text
+>
+>text
+
+Next enter the command "ls" which should return with a list of files and directories. Mine returned with:
+
+desktop.ini icebreaker/ portfolio/ mr.Robogers-Neighborhood/
+
+Because I did not have a directory named mr.Robogers-Neighborhood, I know it downloaded successfully. Now you should have an icon for the directory named mr.Robogers-Neighborhood on your desktop background. Double click on the icon, this should open the directory. Right click on "index.html" select open, or select open with if you have multiple web browsers and would like to use a specific one.
+
+Enter a number, press enter and view Mr. Roboger's response!
 
 ## Known Bugs
 
