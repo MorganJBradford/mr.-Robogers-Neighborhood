@@ -24,5 +24,7 @@ $(document).ready(function(){
     event.preventDefault()
     response.push(parseInt($("#userNumber").val()));
     const beepityBoppityBoop = beepBoop(response)
+    $("#output").text(beepityBoppityBoop);
+    $(".output").show();
   });
 });
