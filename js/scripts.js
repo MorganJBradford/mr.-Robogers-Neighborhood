@@ -7,6 +7,8 @@ function beepBoop(response) {
     beepBoopReturn = "Won't you be my neighbor"
   } else if (response === 2) {
     beepBoopReturn = "Boop!"
+  } else if (response === 1) {
+    beepBoopReturn = "Beep!"
   }
 }
 

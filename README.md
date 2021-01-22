@@ -21,8 +21,11 @@ Expect(beepBoop(0)).toEqual([0]);
 Test-2: "It should return 'Won't you be my neighbor?' if the number 3 is entered"
 Expect(beepBoop(3))toEqual("Won't you be my neighbor?")
 
-Test-3: "It should return the 'Boop!' if the number 2 is entered"
+Test-3: "It should return 'Boop!' if the number 2 is entered"
 Expect(beepBoop(2)).toEqual("Boop!")
+
+Test-4: "It should return 'Beep!' if the number 1 is entered"
+Expect(beepBoop(1)).toEqual("Beep!")
 
 
 ## Description
