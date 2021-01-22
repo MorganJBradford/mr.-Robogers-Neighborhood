@@ -34,9 +34,6 @@ function beepBoop(response) {
     }
   }
 }
-// function arrayJoin(beepBoopReturn){
-//   joinedArray = beepBoopReturn.join(", ")
-// }
 $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault()
