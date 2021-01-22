@@ -15,20 +15,21 @@
 ## Specifications
 
 Describe: beepBoop()
-Test-1: "It should return an array with a 0 if the number 0 is inputted"
+
+Test-1 "it should return an array of consecutive numbers, up to and including the user's response"
+Expect(beepBoop(5))toEqual([0, 1, 2, 3, 4, 5])
+
+Test-2: "It should return an array with a 0 if the number 0 is inputted"
 Expect(beepBoop(0)).toEqual([0]);
 
-Test-2: "It should return 'Won't you be my neighbor?' if the number 3 is entered"
+Test-3: "It should return 'Won't you be my neighbor?' if the number 3 is entered"
 Expect(beepBoop(3))toEqual("Won't you be my neighbor?")
 
-Test-3: "It should return 'Boop!' if the number 2 is entered"
+Test-4: "It should return 'Boop!' if the number 2 is entered"
 Expect(beepBoop(2)).toEqual("Boop!")
 
-Test-4: "It should return 'Beep!' if the number 1 is entered"
+Test-5: "It should return 'Beep!' if the number 1 is entered"
 Expect(beepBoop(1)).toEqual("Beep!")
-
-Test-5 "it should return an array of consecutive numbers, up to and including the user's response"
-Expect(beepBoop(5))toEqual([0, 1, 2, 3, 4, 5])
 
 
 ## Description
