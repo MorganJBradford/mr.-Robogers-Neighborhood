@@ -1,5 +1,4 @@
 let response = [];
-let joinedArray;
 let beepBoopReturn = [];
 let threeArray = [3, 13, 23, 33, 43, 53, 63, 73, 83, 93, 103]
 function beepBoop(response) {
