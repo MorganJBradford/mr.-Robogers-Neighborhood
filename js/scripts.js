@@ -1,4 +1,5 @@
 let response = [];
+let joinedArray;
 let beepBoopReturn = [];
 function beepBoop(response) {
   for (let i = 0; i < response.length; i++) { 
@@ -25,13 +26,14 @@ function beepBoop(response) {
     }
   }
 }
-
-
+// function arrayJoin(beepBoopReturn){
+//   joinedArray = beepBoopReturn.join(", ")
+// }
 $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault()
     response.push(parseInt($("#userNumber").val()));
-    const beepityBoppityBoop = beepBoop(response)
+    const beepityBoppityBoop = beepBoop(response);
     $("#output").text(beepityBoppityBoop);
     $(".output").show();
   });
