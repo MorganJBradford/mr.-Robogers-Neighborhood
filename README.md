@@ -27,6 +27,9 @@ Expect(beepBoop(2)).toEqual("Boop!")
 Test-4: "It should return 'Beep!' if the number 1 is entered"
 Expect(beepBoop(1)).toEqual("Beep!")
 
+Test-5 "it should return an array of consecutive numbers, up to and including the user's response"
+Expect(beepBoop(5))toEqual([0, 1, 2, 3, 4, 5])
+
 
 ## Description
 
