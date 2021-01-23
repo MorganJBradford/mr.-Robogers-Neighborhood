@@ -31,8 +31,11 @@ Expect(beepBoop(2)).toEqual('Boop!')
 Test-5: "It should return 'Beep!' if the number 1 is entered"
 Expect(beepBoop(1)).toEqual('Beep!')
 
-Test-6: "It should return 'won't you be my neighbor' if the number 3 is present among a larger number"
-Expect(beepBoop(13)).toEqual('won't you be my neighbor')
+Test-6: "It should replace 0, 1, 2, or 3 in a return array with their associated string"
+Expect(beepBoop(5)).toEqual([0, 'Beep!', 'Boop!', 'Won't you be my neighbor?', 4, 5])
+
+Test-7: "It should return 'won't you be my neighbor' if the number 3 is present among a larger number"
+Expect(beepBoop(13)).toEqual('won't you be my neighbor?')
 
 
 ## Description
