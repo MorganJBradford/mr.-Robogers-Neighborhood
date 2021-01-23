@@ -7,11 +7,20 @@ function beepBoop(){
       beepBoopReturn.push(i);
     }
   }
-  function beepBoopNumReplacer() {
+  function beepBoopNumReplacer(beepBoopReturn) {
     for (let i = 0; i < beepBoopReturn.length; i++) {
-      
+      if (beepBoopReturn[i] === 0){
+        beepBoopReturn[i] = (parseInt(beepBoopReturn[i]));
+      } else if (beepBoopReturn[i] === 3) {
+        beepBoopReturn[i] = "Won't you be my neighbor"
+      } else if (beepBoopReturn[i] === 2) {
+        beepBoopReturn[i] = "Boop!"
+      } else if (beepBoopReturn[i] === 1) {
+        beepBoopReturn[i] = "Beep!"
+      }
     }
   }
+  beepBoopNumReplacer(beepBoopReturn)
 }
 
 
@@ -32,19 +41,19 @@ function beepBoop(){
 //         }
     // } else {
     //     for (let i = 0; i < response.length; i++) {
-    //       if (response[i] === 0){
-    //         beepBoopReturn.push(response[i]);
-    //         return beepBoopReturn
-    //       } else if (response[i] === 3) {
-    //         beepBoopReturn = "Won't you be my neighbor"
-    //         return beepBoopReturn
-    //       } else if (response[i] === 2) {
-    //         beepBoopReturn = "Boop!"
-    //         return beepBoopReturn
-    //       } else if (response[i] === 1) {
-    //         beepBoopReturn = "Beep!"
-    //         return beepBoopReturn
-    //       }
+          // if (response[i] === 0){
+          //   beepBoopReturn.push(response[i]);
+          //   return beepBoopReturn
+          // } else if (response[i] === 3) {
+          //   beepBoopReturn = "Won't you be my neighbor"
+          //   return beepBoopReturn
+          // } else if (response[i] === 2) {
+          //   beepBoopReturn = "Boop!"
+          //   return beepBoopReturn
+          // } else if (response[i] === 1) {
+          //   beepBoopReturn = "Beep!"
+          //   return beepBoopReturn
+          // }
     //     }
     // }
 //   }
