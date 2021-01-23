@@ -9,22 +9,26 @@ function beepBoop(){
     if (parseInt(response[i]) === 0){
       response[i] = response[i];
     } else if (parseInt(response[i]) === 3) {
-      response[i] = "Won't you be my neighbor" 
+      response[i] = "Won't you be my neighbor?" 
     } else if (parseInt(response[i]) === 2) {
       response[i] = "Boop!"
     } else if (parseInt(response[i]) === 1) {
       response[i] = "Beep!"
-      }
+    } else if (parseInt(response[i]) !== 0 && parseInt(response[i]) !== 3 && parseInt(response[i]) !== 2 && parseInt(response[i]) !== 1 && parseInt(response[i]) >= 0 && parseInt(response[i]) <=9) {
+        for (let j = 0; j <= response[0]; j++) {
+          response.push(j)
+        }
     }
+  }
 }
 
 
 // function beepBoop(response) {
 //   for (let i = 0; i < response.length; i++) { 
 //     if (response[0] !== 0 && response[0] !== 3 && response[0] !== 2 && response[0] !== 1 && response[0] >= 0 && response[0] <=9) {
-//       for (let j = 0; j <= response[0]; j++) {
-//         beepBoopReturn.push(j)
-//       }
+      // for (let j = 0; j <= response[0]; j++) {
+      //   beepBoopReturn.push(j)
+      // }
 //     } else if (response[i] !== 0 && response[i] !== 3 && response[i] !== 2 && response[i] !== 1 && response[i] > 9) {
 //         for (let i = 0; i < response; i++) {
 //           if (response[0] === threeArray[i]) {
