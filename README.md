@@ -79,7 +79,8 @@ Enter a number, press enter and view Mr. Roboger's response!
 
 ## Known Bugs
 
-* _Arrays of multiple numbers do not replace 1, 2, or 3 with associated string at indexes other than 0_
+* _Numbers in arrays > 10 containing 1, 2, or 3, such as 13, are not replaced with their associated strings_
+* _Results do not display on the page_
 
 ## License
 
