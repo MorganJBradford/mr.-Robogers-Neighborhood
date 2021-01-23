@@ -6,14 +6,24 @@ function beepBoop(){
     response = response.split("");
   }
   for (let i = 0; i < response.length; i++) {
-    if (parseInt(response[i]) === 0){
-      response[i] = response[i];
-    } else if (parseInt(response[i]) === 3) {
-      response[i] = "Won't you be my neighbor"
-    } else if (parseInt(response[i]) === 2) {
-      beepBoopReturn = "Boop!"
-    } else if (parseInt(response[i]) === 1) {
-      beepBoopReturn = "Beep!"
+    for (let j = 0; i < response.length; j++) {
+      for (let k = 0; i < response.length; i++) {
+        for (let l = 0; i < response.length; l++) {
+          if (parseInt(response[i]) === 0 && parseInt(response[j]) === 3 && parseInt(response[k]) === 2 && parseInt(response[l]) === 1){
+            response[i] = response[i];
+            response[j] = "Won't you be my neighbor"
+            response[k] = "Boop!"
+            response[l] = "Beep!"
+          } else if (parseInt(response[i]) === 3) {
+            response[i] = "Won't you be my neighbor"
+
+          } else if (parseInt(response[i]) === 2) {
+            beepBoopReturn = "Boop!"
+          } else if (parseInt(response[i]) === 1) {
+            beepBoopReturn = "Beep!"
+          }
+        }
+      }
     }
   }
 }
