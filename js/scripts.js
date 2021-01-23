@@ -1,10 +1,15 @@
 let beepBoopReturn = [];
 
-let response = [];
+let response;
 function beepBoop(){
   if (parseInt(response) >= 0) {
     for (let i = 0; i <= parseInt(response); i++) {
       beepBoopReturn.push(i);
+    }
+  }
+  function beepBoopNumReplacer() {
+    for (let i = 0; i < beepBoopReturn.length; i++) {
+      
     }
   }
 }
