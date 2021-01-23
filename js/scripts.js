@@ -2,23 +2,10 @@ let beepBoopReturn = [];
 
 let response = [];
 function beepBoop(){
-  if (response >= 0) {
-    response = response.split("");
-  }
-  for (let i = 0; i < response.length; i++) {
-    if (parseInt(response[0]) !== 0 && parseInt(response[0]) !== 3 && parseInt(response[0]) !== 2 && parseInt(response[0]) !== 1 && parseInt(response[0]) >= 0 && parseInt(response[0]) <=9) {
-      for (let j = 0; j <= response[0]; j++) {
-        beepBoopReturn.push(j);
-      } 
-    } else if (parseInt(response[i]) === 0) {
-      response[i] = response[i];
-      } else if (parseInt(response[i]) === 3) {
-        response[i] = "Won't you be my neighbor?" 
-      } else if (parseInt(response[i]) === 2) {
-        response[i] = "Boop!"
-      } else if (parseInt(response[i]) === 1) {
-        response[i] = "Beep!"
-      }
+  if (parseInt(response) >= 0) {
+    for (let i = 0; i <= parseInt(response); i++) {
+      beepBoopReturn.push(i);
+    }
   }
 }
 
