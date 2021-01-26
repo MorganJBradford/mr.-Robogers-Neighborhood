@@ -1,12 +1,12 @@
 let beepBoopReturn = [];
 
-function beepBoop(response){
-  if (parseInt(response) >= 0) {
-    for (let i = 0; i <= parseInt(response); i++) {
+function beepBoop(userInput){
+  if (parseInt(userInput) >= 0) {
+    for (let i = 0; i <= parseInt(userInput); i++) {
       beepBoopReturn.push(i.toString());
     }
   }
-  beepBoopNumReplacer(beepBoopReturn)
+  beepBoopNumReplacer(beepBoopReturn);
 }
 function beepBoopNumReplacer(beepBoopReturn) {
   for (let i = 0; i < beepBoopReturn.length; i++) {
@@ -22,12 +22,15 @@ function beepBoopNumReplacer(beepBoopReturn) {
   }
 }
 
-
 $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault()
-    let response = ($("#userNumber").val());
-    $("#output").text(beepBoop(response));
+    let userInput = ($("#userNumber").val());
+    beepBoop(userInput);
+
+    const joinedArray = beepBoopReturn.join(", ")
+
+    $("#output").text(joinedArray);
     $(".output").show();
   });
 });
