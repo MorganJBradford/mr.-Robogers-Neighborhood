@@ -1,3 +1,18 @@
-/* .output {
-  display: none
-} */
+body {
+  background: url(../img/pexels-kaboompics-com-6069.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+h1, h2 {
+  text-align: center;
+}
+p, label, input {
+  position: relative;
+  top: 50px;
+  -webkit-text-stroke: purple;
+  -webkit-text-stroke-width: 0.2px; 
+  -moz-text-stroke: purple;
+  -moz-text-stroke-width: 0.2px;
+}
