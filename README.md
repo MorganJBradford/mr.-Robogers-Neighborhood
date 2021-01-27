@@ -82,8 +82,8 @@ Enter a number, press enter and view Mr. Roboger's response!
 
 ## Known Bugs
 
-* _Numbers in arrays > 10 containing 1, 2, or 3, such as 13, are not replaced with their associated strings_
-* _Results do not display on the page_
+* _No known bugs at this time_
+* _If you find any bugs, *please* contact me via my email listed below_
 
 ## License
 
