@@ -83,7 +83,7 @@ Enter a number, press enter and view Mr. Roboger's response!
 ## Known Bugs
 
 * _No known bugs at this time_
-* _If you find any bugs, *please* contact me via my email listed below_
+* _If you find any bugs, **please** contact me via my email listed below_
 
 ## License
 
