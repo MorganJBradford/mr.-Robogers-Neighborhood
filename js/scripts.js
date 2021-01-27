@@ -1,5 +1,3 @@
-let beepBoopReturn = [];
-
 function beepBoop(userInput){
   if (parseInt(userInput) >= 0) {
     for (let i = 0; i <= parseInt(userInput); i++) {
@@ -21,17 +19,15 @@ function beepBoopNumReplacer(beepBoopReturn) {
     }
   }
 }
-
 $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault()
+    beepBoopReturn = [];
     let userInput = ($("#userNumber").val());
     beepBoop(userInput);
-
     const joinedArray = beepBoopReturn.join(", ")
 
     $("#output").text(joinedArray);
-    $(".output").show();
   });
 });
 
