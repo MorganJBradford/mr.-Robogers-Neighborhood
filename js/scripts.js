@@ -1,10 +1,11 @@
 function beepBoop(userInput){
+  let beepBoopReturn = [];
   if (parseInt(userInput) >= 0) {
     for (let i = 0; i <= parseInt(userInput); i++) {
       beepBoopReturn.push(i.toString());
     }
   }
-  beepBoopNumReplacer(beepBoopReturn);
+  return beepBoopNumReplacer(beepBoopReturn);
 }
 function beepBoopNumReplacer(beepBoopReturn) {
   for (let i = 0; i < beepBoopReturn.length; i++) {
@@ -17,14 +18,14 @@ function beepBoopNumReplacer(beepBoopReturn) {
     } else if (beepBoopReturn[i].includes("1")) {
       beepBoopReturn[i] = "Beep!"
     }
-  }
+  } 
+  return beepBoopReturn;
 }
 $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault()
-    beepBoopReturn = [];
     let userInput = ($("#userNumber").val());
-    beepBoop(userInput);
+    let beepBoopReturn = beepBoop(userInput);
     const joinedArray = beepBoopReturn.join(", ")
 
     $("#output").text(joinedArray);
