@@ -25,7 +25,7 @@ $(document).ready(function(){
   $("#formOne").submit(function(event) {
     event.preventDefault()
     let userInput = ($("#userNumber").val());
-    let beepBoopReturn = beepBoop(userInput);
+    const beepBoopReturn = beepBoop(userInput);
     const joinedArray = beepBoopReturn.join(", ")
 
     $("#output").text(joinedArray);
